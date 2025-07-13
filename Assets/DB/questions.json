@@ -1,0 +1,56 @@
+{
+	"questions":[
+		{
+			"question":"Apakah kamu mau menjual roti itu?",
+			"yes":{
+				"survival":-2,
+				"happy":2,
+				"wealth":3
+			},
+			"no":{
+				"survival":2,
+				"happy":-2,
+				"wealth":0
+			}
+		},
+		{
+			"question":"Apakah kamu mau membeli roti ini?",
+			"yes":{
+				"survival":2,
+				"happy":2,
+				"wealth":-3
+			},
+			"no":{
+				"survival":-2,
+				"happy":-2,
+				"wealth":0
+			}
+		},
+		{
+			"question":"Apakah kamu mau berlangganan wifi?",
+			"yes":{
+				"survival":0,
+				"happy":5,
+				"wealth":-6
+			},
+			"no":{
+				"survival":0,
+				"happy":-5,
+				"wealth":0
+			}
+		},
+		{
+			"question":"Apakah kamu mau mencuci bajuku?",
+			"yes":{
+				"survival":-2,
+				"happy":-3,
+				"wealth":6
+			},
+			"no":{
+				"survival":0,
+				"happy":3,
+				"wealth":0
+			}
+		}
+	]
+}
